@@ -1,4 +1,4 @@
-### Hi there 👋
+### This is just for the test of git when i first used it👋
 
 <!--
 **itoeHi/itoeHi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
