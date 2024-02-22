@@ -1,0 +1,2 @@
+maybe it is just a bad idea to learn git and make different version of code which leads to more problem
+But, who knows?

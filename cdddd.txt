@@ -1,0 +1,3 @@
+Ok, I'm back. I kown it is stupit, but i also need abbbb.txt and cdddd.txt to show the command:
+$ git reset 
+will redraw all the staged file or just the newest file i just added.
