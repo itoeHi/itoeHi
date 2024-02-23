@@ -17,11 +17,19 @@ $ git init                         // inital local project
 ##clone remote repository##
 $ git clone ~http of repository~       // first time get files(and many other things) from remote repository
                                                             //You can also changed way of address from http to SSH and others
-$ git pull ~http of repository~          //more than second time get files
+$ git pull ~http of repository~          //more than second time get files "pull"== "fetch" + "merge"!!
 
 ##git common command##
+$ git status                               // checkout version of local-repository&state of changed file
+
 $ git add/mv/rm                     //workspace-->staging
-$ git commit -a                       //workspace--------------->local-repository
+$ git add .                                // . add all file to staging status
+
+$ git commit -m filename      //workspace--------------->local-repository
+$ git commit -a                       //all staging status file to commit!! Becareful!
+$ git commit -am filename               // == "add"+"commit" command!!
+$ git commit --amend -m filename  //Merge previous submission (for repeated modifications)
+
 
 $ git commit                           //                        staging--->local-repository
 $ git reset <filename>           //workspace<--staging
@@ -34,3 +42,10 @@ $ git clone/pull                      //workspace<------------------------------
 $ git diff                                //workspace<-->staging
 $ git diff HEAD                     //workspace<---------------->local-repository
 
+
+
+
+
+
+##git remove file##
+$ git rm filename                 //                        staging
