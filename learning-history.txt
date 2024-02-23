@@ -1,0 +1,36 @@
+=====This record the learning history==============
+
+##git install:##
+$ git config --global user.name "username"
+$ git config --global user.email "username@example.com"
+
+
+
+##file create##
+$ mkdir filename           //make new file named "filename"
+$ cd filegoto
+$ cd ../                           //go back to the upper level file
+$ pwd                            //
+$ git init                         // inital local project
+
+
+##clone remote repository##
+$ git clone ~http of repository~       // first time get files(and many other things) from remote repository
+                                                            //You can also changed way of address from http to SSH and others
+$ git pull ~http of repository~          //more than second time get files
+
+##git common command##
+$ git add/mv/rm                     //workspace-->staging
+$ git commit -a                       //workspace--------------->local-repository
+
+$ git commit                           //                        staging--->local-repository
+$ git reset <filename>           //workspace<--staging
+
+$ git reset <commit>            //workspace<---------------local-repository
+$ git push                               //                                           local-repository-->remote-repository
+
+$ git clone/pull                      //workspace<-------------------------------------remote-repository
+
+$ git diff                                //workspace<-->staging
+$ git diff HEAD                     //workspace<---------------->local-repository
+

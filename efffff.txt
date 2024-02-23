@@ -1,0 +1,3 @@
+And i know $ git reset will help me redraw all the file in stage status, emmm...
+
+Yes, $ git add  can be followed mutiple file name to add!
